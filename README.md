@@ -62,7 +62,7 @@ $ meteor
 
 Open a browser and navigate to `http://localhost:3000` and check that
 `Hello, World!` appears on the console. Then remove `fds:coffeescipt-share` and
-which is explode;
+watch it explode;
 
 ```ShellSession
 $ meteor remove fds:coffeescript-share
