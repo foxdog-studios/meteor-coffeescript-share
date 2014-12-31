@@ -5,6 +5,12 @@ Exports Meteor's [CoffeeScript `__coffeescriptShare`][meteor-coffeescript]
 object so that you can [`'use strict'`][strict-mode] in your CoffeeScript
 files.
 
+__Warning__
+
+fds:coffeescript-share __is only__ for use with Meteor applications and __is not__ for use by other packages.
+
+fds:coffeescript-share makes the same `share` object aviable to everything that uses it. This allows shared objects to leak outside of their package. This is only aproblem when fds:coffeescript-share is used by other package.
+
 
 Install
 -------
