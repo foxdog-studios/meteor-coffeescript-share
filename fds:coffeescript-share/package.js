@@ -2,7 +2,8 @@
 
 Package.describe({
   name: 'fds:coffeescript-share',
-  summary: "Exports Meteor's CoffeeScript share object so you can 'use strict'",
+  summary: "Exports Meteor's CoffeeScript __coffeescriptShare object so you " +
+      "can 'use strict' in your CoffeeScript files",
   version: '1.0.0',
   git: 'https://github.com/foxdog-studios/meteor-coffeescript-share.git'
 });
